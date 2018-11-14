@@ -72,8 +72,8 @@ i derived some additional features from questions like no of common words, word 
 - ##### Bivariate analysis of features 'Word_Mover_Dist', 'dist_cosine', 'dist_cityblock', 'dist_canberra','dist_euclidean'.This also giving some patterns to classify.
    ![Pair plot of distances](https://github.com/UdiBhaskar/Quora-Question-pair-similarity/blob/master/Images/output_213_0.png "Pair plot of distances")
 ### Machine Learning Models:
-   - Build a random model to check Worst case log loss and got log loss as 0.887699
-   - Build some models and also tuned hyperparameters using Random and Grid search. I didnt used total train data to train my algorithms. Because of ram availability constraint in my PC, i sampled some data and Trained my models. below are models and their logloss scores. you can check total modelling and feature extraction [here](https://github.com/UdiBhaskar/Quora-Question-pair-similarity/blob/master/Quora%20Question%20pair%20similarity.ipynb)  
+   - Trained a random model to check Worst case log loss and got log loss as 0.887699
+   - Trained some models and also tuned hyperparameters using Random and Grid search. I didnt used total train data to train my algorithms. Because of ram availability constraint in my PC, i sampled some data and Trained my models. below are models and their logloss scores. you can check total modelling and feature extraction [here](https://github.com/UdiBhaskar/Quora-Question-pair-similarity/blob/master/Quora%20Question%20pair%20similarity.ipynb)  
    For below table BF - Basic features, AF - Advanced features, DF - Distance Features including WMD.
 
 | Model         | Features Used | Log Loss |
